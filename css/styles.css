@@ -172,21 +172,22 @@ footer {
   color: #000000;
 }
 
-/* Address */
-.footer-contacts > .address {
+/* Address box*/
+.footer-contacts .address {
   color: var(--primary-white-color);
-  /* я не понимаю, почему оно не автоматическое и даже из body (я пробовала) font-style, а упорно рисует мне адрес italic */
-
+  /* я не понимаю, почему оно не автоматическое и даже из body (я пробовала) font-style, а упорно рисует мне адрес italic*/
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
 
-.footer-contacts > .link {
+.footer-contacts .link {
+  font-style: normal;
   color: var(--footer-text-color);
 }
 
+/* Social Networks box */
 .footer-title {
   color: var(--primary-white-color);
 
@@ -195,11 +196,7 @@ footer {
   line-height: 1.14;
   text-transform: uppercase;
 }
-
-.footer-title > .link {
-  color: var(--paragraph-colour);
-}
-
+/* Form &Button */
 .e-mail {
   color: var(--footer-text-color);
 
@@ -223,6 +220,7 @@ footer {
   align-items: center;
 }
 
+/* Copiright */
 .copiright {
   color: rgba(255, 255, 255, 0.4);
 
@@ -230,4 +228,44 @@ footer {
   font-size: 12px;
   line-height: 2;
   text-align: center;
+}
+
+/* ****** */
+
+/* portfolio.html */
+
+/* Buttons-filter */
+
+.button-portfolio {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* Works */
+.project {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.type {
+  font-size: 16px;
+  line-height: 1.87;
+}
+.works .description {
+  color: var(--primary-white-color);
+  /* временно, чтоб не терялся белый цвет шрифта */
+  background-color: var(--accent-color);
+
+  font-size: 18px;
+  line-height: 1.56;
 }
