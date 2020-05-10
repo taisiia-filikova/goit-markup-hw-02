@@ -1,5 +1,5 @@
 :root {
-  --footer-text-color: rgba (255, 255, 255, 0.6);
+  --footer-text-color: rgba(255, 255, 255, 0.6);
   --footer-bgc: #2f303a;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -103,8 +103,6 @@ footer {
   line-height: 1.87;
   letter-spacing: 0.06em;
   text-align: center;
-  display: flex;
-  align-items: center;
 }
 /* Advantages */
 
@@ -169,7 +167,7 @@ footer {
 }
 
 .logo-footer > span {
-  color: #000000;
+  color: var(--primary-white-color);
 }
 
 /* Address box*/
@@ -203,8 +201,6 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
 }
 
 .button-footer {
@@ -216,8 +212,6 @@ footer {
   line-height: 1.87;
   letter-spacing: 0.06em;
   text-align: center;
-  display: flex;
-  align-items: center;
 }
 
 /* Copiright */
